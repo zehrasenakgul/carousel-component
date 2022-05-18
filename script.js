@@ -50,4 +50,3 @@ var Slider = (function () {
 $(function () {
   Slider.init();
 });
-//# sourceURL=pen.js
