@@ -9,7 +9,7 @@
 }
 .slider-container .slider {
   display: block;
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   position: relative;
@@ -19,6 +19,15 @@
 @media (max-width: 768px) {
   .slider-container .slider {
     height: 450px;
+  }
+  .slider-container {
+    display: block;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1300px;
+    margin-top: 20px;
   }
 }
 .slider-container .slider .slide {
